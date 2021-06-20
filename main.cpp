@@ -40,6 +40,7 @@ void printLinkedList(Node* head){
 
 int main() {
     Node* head = nullptr;
+    insertNewNodeAtFront(head,6);
     insertNewNodeAtFront(head, 5);
     insertNewNodeAtFront(head, 4);
     insertNewNodeAtFront(head, 3);
