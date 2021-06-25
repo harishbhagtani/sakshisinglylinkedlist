@@ -1,3 +1,3 @@
-/Users/harishbhagtani/CLionProjects/sakshiSiglyLinkedList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/harishbhagtani/CLionProjects/sakshiSiglyLinkedList/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/harishbhagtani/CLionProjects/sakshiSiglyLinkedList/cmake-build-debug/CMakeFiles/sakshiSiglyLinkedList.dir
+C:/Users/sakshi/sakshisinglylinkedlist/cmake-build-debug/CMakeFiles/sakshiSiglyLinkedList.dir
+C:/Users/sakshi/sakshisinglylinkedlist/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sakshi/sakshisinglylinkedlist/cmake-build-debug/CMakeFiles/rebuild_cache.dir

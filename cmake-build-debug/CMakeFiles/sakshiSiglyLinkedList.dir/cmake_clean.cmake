@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sakshiSiglyLinkedList.dir/main.cpp.o"
-  "sakshiSiglyLinkedList"
+  "CMakeFiles/sakshiSiglyLinkedList.dir/main.cpp.obj"
+  "libsakshiSiglyLinkedList.dll.a"
+  "sakshiSiglyLinkedList.exe"
+  "sakshiSiglyLinkedList.exe.manifest"
   "sakshiSiglyLinkedList.pdb"
 )
 
