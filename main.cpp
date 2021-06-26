@@ -112,6 +112,59 @@ void deleteFromEnd(Node* &head){
     prev->next= nullptr;
 
 }
+void deleteAtPosition(Node* &head,int pos){
+
+    if (head== nullptr){
+        cout<<"list is empty";
+        return;
+    }
+    if (pos<=count(head)){
+        int i=1;
+        Node* nextnode;
+        Node* temp=head;
+        while (i<pos-1){
+            temp=temp->next;
+            i++;
+        }
+        nextnode=temp->next;
+        temp->next=nextnode->next;
+        delete nextnode;
+
+    }else{
+        cout<<"posion not found";
+    }
+
+}
+void updateAtPosition(Node* &head,int data,int pos){
+    if (head== nullptr){
+        cout<<"list is empty";
+    }
+    Node* temp=head;
+    int i=1;
+    while (i< pos){
+        temp=temp->next;
+        i++;
+    }
+    temp->data=data;
+
+}
+void updateAtKey(Node* &head,int element,int newElement){
+    if(head== nullptr){
+        cout<<"list is empty";
+        return;
+    }
+    Node* temp=head;
+    while (temp->data!=element && temp->next!= nullptr){
+        temp=temp->next;
+    }
+
+    if (temp->data==element){
+        temp->data=newElement;
+    }else
+    {
+        cout<<"key is not found";
+    }
+}
 
 
 int main() {
@@ -125,8 +178,8 @@ int main() {
     insertAtEnd(head,17);
     insertAtMid(head,20,17);
     insertNewNodeAtFront(head,0);
-    deleteAtFront(head);
-    deleteFromEnd(head);
+    updateAtKey(head,21,12);
+
     printLinkedList(head);
 
    cout<<"number of elements are"<< count(head);
